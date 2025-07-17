@@ -1,0 +1,20 @@
+{
+  "huly": {
+    "endpoint": "https://your-huly-instance.com",
+    "workspace": "your-workspace-id",
+    "auth": {
+      "method": "token",
+      "token": "your-api-token"
+    }
+  },
+  "mcp": {
+    "server": {
+      "name": "huly-mcp-server",
+      "version": "1.0.0"
+    },
+    "logging": {
+      "level": "info",
+      "file": "logs/mcp-server.log"
+    }
+  }
+}
